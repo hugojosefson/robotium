@@ -428,19 +428,6 @@ public class Solo {
 	
 	
 	/**
-	 * Incorrectly named method.
-	 *
-	 * @deprecated use {@link #assertMemoryNotLow()} instead.
-	 *
-	 */
-
-	public void assertLowMemory()
-	{
-		asserter.assertMemoryNotLow();
-	}
-	
-
-	/**
 	 * Waits for a {@link android.app.Dialog} to close.
 	 * 
 	 * @param timeout the amount of time in milliseconds to wait
