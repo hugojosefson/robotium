@@ -966,22 +966,6 @@ public class Solo {
 		return viewFetcher.getView(EditText.class, text);
 	}
 	
-	
-	/**
-	 * Returns the number of buttons located in the current
-	 * activity.
-	 *
-	 * @return the number of buttons in the current activity
-	 * @deprecated use {@link #getCurrentButtons()}<code>.size()</code> instead.
-	 *
-	 */
-	
-	public int getCurrenButtonsCount() {
-		int number = viewFetcher.getCurrentViews(Button.class).size();
-		return number;
-	}
-	
-	
 	/**
 	 * Returns a {@code View} with a given id. 
 	 * 
